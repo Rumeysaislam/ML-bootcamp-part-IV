@@ -91,7 +91,7 @@ plt.xlim(-10, 310)
 plt.ylim(bottom=0)                                          # y-ekseninde 0'i baslangic noktasi olarak sectik.
 plt.show(block=True)
 
-# Iki boyutta iki degiskenli bu modelin gösterimini elde etmis olduk.
+# Iki boyutta iki degiskenli bu modelin gosterimini elde etmis olduk.
 # Kirmizi cizgi: Modelimiz; Tahmin denklemimizdir (tahmin edilen degerlerdir).
 # Dogrusal iliski oldugunu dusunerek bir model kurduk ve tutarli gorunuyor.
 
