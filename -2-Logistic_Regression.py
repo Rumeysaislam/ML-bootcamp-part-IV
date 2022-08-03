@@ -413,20 +413,3 @@ X.columns # Bagimsiz Degiskenlerimiz
 # X'in icerisinde rastgele bir kullanici seciyoruz;
 random_user = X.sample(1, random_state=45)
 log_model.predict(random_user) # Bu rastgele kullanici icin tahminimiz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
