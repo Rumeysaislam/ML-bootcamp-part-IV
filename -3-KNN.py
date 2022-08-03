@@ -1,6 +1,5 @@
-################################################
 # KNN
-################################################
+
 
 # 1. Exploratory Data Analysis                   / Veriyi tanima asamasi
 # 2. Data Preprocessing & Feature Engineering    / Eksiklikler, aykirliklik gideriliz, duzenlemeler yapilir ve yeni degiskenler uretilir.
