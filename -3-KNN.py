@@ -146,7 +146,7 @@ knn_params = {"n_neighbors": range(2, 50)}                        # Bir sozluk o
 # "GridSearchCV" : Programatik olarak komsuluklara gore knn modeli grup uygun olanini bulacak.
 # "cv=5" : Hataya 5 katli bak demek istedik.
 # "n_jobs=-1" : Islemciler olasi en hizli sekilde kullanilir. Daha hizli sonuclara ulasmak icin. :)
-# "verbose=1" : Yapilan sonuclar icin rapor istedigimi belirtiyorum.
+# "verbose=1" : Yapilan sonuclar icin rapor istedigimi belirtiyoruz.
 
 
 knn_gs_best = GridSearchCV(knn_model,
