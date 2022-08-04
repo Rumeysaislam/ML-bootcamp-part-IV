@@ -214,8 +214,8 @@ y = df["Outcome"]                                   # Bagimli degisken
 X = df.drop(["Outcome"], axis=1)                    # Bagimsiz degiskenleri tanimlamak icin bagimli degiskenimizi cikardik.
 
 # Ikisi arasindaki iliskiyi modelliyoruz;
-log_model = LogisticRegression().fit(X, y)
-# Logistik Reg. modelimizi kurduk.
+log_model = LogisticRegression().fit(X, y)          # Logistik Reg. modelimizi kurduk.
+
 
 log_model.intercept_                                # Modelin sabiti
 log_model.coef_                                     # Bagimsiz degiskenlerin agirlik degerleri
@@ -255,7 +255,7 @@ y[0:10]
 # Karmasiklik matrisini isi haritasi kullanarak gorsellestirmek icin;
 def plot_confusion_matrix(y, y_pred):
     acc = round(accuracy_score(y, y_pred), 2)
-    cm = confusion_matrix(y, y_pred) # Numerik karsiliklar
+    cm = confusion_matrix(y, y_pred)            # Numerik karsiliklar
     sns.heatmap(cm, annot=True, fmt=".0f")
     plt.xlabel('y_pred')
     plt.ylabel('y')
@@ -385,7 +385,7 @@ cv_results = cross_validate(log_model,
 
 # K-Katli Capraz Dogrulama yaptiktan sonra elde ettigimiz degerler; (Daha dogru sonuclar :))
 cv_results['test_accuracy']                 # Test skorlarimiz; Kombinasyonlar sonucu ortalama accurcy'ler
-cv_results['test_accuracy'].mean()          # Ortalamasini alarak, basari metrigimi elde etmis oldum.
+cv_results['test_accuracy'].mean()          # Ortalamasini alarak, basari metrigimi elde etmis olduk.
 # Accuracy: 0.7721
 
 cv_results['test_precision'].mean()
