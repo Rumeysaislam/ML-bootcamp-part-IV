@@ -67,7 +67,7 @@ reg_model.intercept_[0] + reg_model.coef_[0][0]*500
 df.describe().T
 
 # TV'nin max degeri 296, ben 500 girdim;
-# verinin oruntusunu ogrendim, gozlenmemis bir deger bile olsa bunu ogrendigim modele sorabilirim.
+# verinin oruntusunu ogrendim, gozlenmemis bir deger bile olsa bunu ogrendigim modele sorabiliriz.
 # Satisin max degeri=27 iken 30 'u elde ettik. Modellemenin faydalari :D
 
 
@@ -101,7 +101,7 @@ plt.show(block=True)
 # Tahmin Basarisi;
 
 # MSE
-y_pred = reg_model.predict(X) # Girdigim bagimsiz degiskene (x) gore, bagimli degiskeni (y_pred) tahmin etmek istiyorum.
+y_pred = reg_model.predict(X) # Girdigim bagimsiz degiskene (x) gore, bagimli degiskeni (y_pred) tahmin etmek istiyoruz.
 # mean_squared_error' gercek degerleri ve tahmin edilen degerleri gonderirsek;
 print(mean_squared_error(y, y_pred))
 # 10.51; Olabilecek min. deger olmasini istiyorum.
