@@ -40,4 +40,21 @@ calisilmistir. :)
 
           -10. Saving and Loading Model                                  / Modeli kaydetme ve (yeniden) yukleme 
 
+"-5-Advanced_Trees" kapsaminda;
+          -1. Random Forests
+
+          -2. GBM
+
+          -3. XGBoost
+
+          -4. LightGBM
+
+          -5. CatBoost
+
+          -6. Feature Importance
+
+          -7. Hyperparameter Optimization with RandomSearchCV (BONUS) 
+
+          -8. Analyzing Model Complexity with Learning Curves (BONUS)
+
 konulari islenmistir. :)
