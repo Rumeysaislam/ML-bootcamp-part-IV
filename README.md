@@ -57,4 +57,15 @@ calisilmistir. :)
 
           -8. Analyzing Model Complexity with Learning Curves (BONUS)
 
+"-6-Unsupervised_Learning" kapsaminda;
+          -1. K-Means
+
+          -2. Hierarchical Clustering
+
+          -3. Principal Component Analysis ( PCA )
+
+          -4. BONUS: Principal Component Regression
+
+          -5. BONUS: PCA ile Cok Boyutlu Veriyi 2 Boyutta Gorsellestirme
+                    
 konulari islenmistir. :)
